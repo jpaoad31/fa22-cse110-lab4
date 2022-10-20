@@ -1,0 +1,2 @@
+1. The "bug" is that the two values are stored as strings: '#' + '#' so the addition operation performs string concatenation rather than addition.
+2. Use a function to convert the summands to numeric values before the addition operation.
